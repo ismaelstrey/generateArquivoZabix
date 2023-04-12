@@ -3,7 +3,11 @@ export interface xmlTypes {
 }
 export interface hostTypeProps {
     name: string;
-    group: string;
+    group: [
+        {
+            name: string;
+        }
+    ];
     model: string;
     ssid: string;
     tipo: string;

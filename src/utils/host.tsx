@@ -15,7 +15,7 @@ const Host = ({ name, group, model, ssid, tipo, pop, ip, port, port_snmp, versio
                         templates,
                     ],
                     "groups": [
-                        host_groups,
+                        group,
                     ],
                     "interfaces": [
                         {
@@ -40,4 +40,5 @@ const Host = ({ name, group, model, ssid, tipo, pop, ip, port, port_snmp, versio
             ]
         }
     }
+    return obj
 }
