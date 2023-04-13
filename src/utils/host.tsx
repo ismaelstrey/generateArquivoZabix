@@ -1,7 +1,8 @@
 import { hostTypeProps } from "../types/xml"
 
-const Host = ({ name, group, model, ssid, tipo, pop, ip, port, port_snmp, version, host_groups, templates }: hostTypeProps) => {
-    const obj = {
+const Host = async ({ name, group, model, ssid, tipo, pop, ip, port, port_snmp, version, host_groups, templates }: hostTypeProps) => {
+    console.log(name)
+    const obj = await {
         "zabbix_export": {
             "version": version,
             "host_groups": [
@@ -34,7 +35,7 @@ const Host = ({ name, group, model, ssid, tipo, pop, ip, port, port_snmp, versio
                     ],
                     inventory: {
                         "location": pop,
-                        "notes": `POP: ${pop} - NOME: ${name} - ${ip}:${port} - MODELO: ${model} SSID: ${ssid}`,
+                        "notes": 'POP:'+pop+'- NOME:'+name+'-'+ip+'-'+port+'- MODELO: '+model+'SSID:'+ssid,
                     }
                 }
             ]
@@ -42,3 +43,5 @@ const Host = ({ name, group, model, ssid, tipo, pop, ip, port, port_snmp, versio
     }
     return obj
 }
+
+export default Host
