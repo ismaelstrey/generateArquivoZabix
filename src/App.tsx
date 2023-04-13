@@ -1,18 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { FC, JSXElementConstructor, ReactNode, useState } from 'react'
 import './App.css'
 import HostProvider from './context/xmlContext'
-import Home from './componets/home/home'
+import Home from './components/home/home'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <HostProvider> <div className="App">
-<Home>Olá</Home>
-    </div></HostProvider>
-   
+    <HostProvider>
+      <div className="flex flex-col w-screen h-full bg-slate-600">
+        <Home />
+      </div>
+    </HostProvider>
+
   )
 }
 

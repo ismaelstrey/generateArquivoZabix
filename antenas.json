@@ -1,0 +1,752 @@
+[
+    {
+        "name": "Santa Lúcia x Bom Fim",
+        "group": "UBIQUITI",
+        "model": "NanoStation Loco M5",
+        "ssid": "BfxSl",
+        "tipo": "Station",
+        "pop": "SANTA LUCIA",
+        "ip": "10.200.200.100",
+        "port": "65444"
+    },
+    {
+        "name": "PSALxARP",
+        "group": "UBIQUITI",
+        "model": "PowerBeam M5 400",
+        "ssid": "axp",
+        "tipo": "Station",
+        "pop": "PASSO SALSEIRO",
+        "ip": "10.200.200.112",
+        "port": "65444"
+    },
+    {
+        "name": "EL_INTMTG58",
+        "group": "UBIQUITI",
+        "model": "AirGrid M5 HP",
+        "ssid": "int_mtg",
+        "tipo": "Access Point",
+        "pop": "MORRO DO GAUCHO",
+        "ip": "10.200.200.114",
+        "port": "65444"
+    },
+    {
+        "name": "txa",
+        "group": "UBIQUITI",
+        "model": "AirGrid M5 HP",
+        "ssid": "comunidade",
+        "pop": "ARROIO DAS PEDRAS",
+        "ip": "10.200.200.116",
+        "port": "65444"
+    },
+    {
+        "name": "MTG x MG",
+        "group": "UBIQUITI",
+        "model": "AirGrid M5 HP",
+        "ssid": "mgxmt",
+        "tipo": "Station",
+        "pop": "MORRO DA MANTEIGA",
+        "ip": "10.200.200.117",
+        "port": "65444"
+    },
+    {
+        "name": "ELETRIC x Bom Fim",
+        "group": "UBIQUITI",
+        "model": "int_bfm",
+        "ssid": "int_bfm",
+        "tipo": "Access Point",
+        "pop": "pop CENTRAL - DATACENTER",
+        "ip": "10.200.200.118",
+        "port": "65444"
+    },
+    {
+        "name": "Bom Fim x ELETRIC",
+        "group": "UBIQUITI",
+        "model": "PowerBeam 5AC 500",
+        "ssid": "int_bfm",
+        "tipo": "Station",
+        "pop": "BOM FIM",
+        "ip": "10.200.200.119",
+        "port": "65444"
+    },
+    {
+        "name": "BfxSl",
+        "group": "UBIQUITI",
+        "model": "AirGrid M5 HP",
+        "ssid": "BfxSl",
+        "tipo": "Access Point",
+        "pop": "BOM FIM",
+        "ip": "10.200.200.120",
+        "port": "65444"
+    },
+    {
+        "name": "BVxARP",
+        "group": "UBIQUITI",
+        "model": "PowerBeam M5 400",
+        "ssid": "arpxbv",
+        "tipo": "Station",
+        "pop": "BELA VISTA",
+        "ip": "10.200.200.122",
+        "port": "65444"
+    },
+    {
+        "name": "MGxJSCH",
+        "group": "UBIQUITI",
+        "model": "PowerBeam M5 400",
+        "ssid": "int_jsch",
+        "tipo": "Station",
+        "pop": "MORRO DO GAUCHO",
+        "ip": "10.200.200.123",
+        "port": "65444"
+    },
+    {
+        "name": "JSCH x MG",
+        "group": "UBIQUITI",
+        "model": "AirGrid M5 HP",
+        "ssid": "int_jsch",
+        "tipo": "Access Point",
+        "pop": "JAIME SHCNEIDER",
+        "ip": "10.200.200.124",
+        "port": "65444"
+    },
+    {
+        "name": "SxE",
+        "group": "UBIQUITI",
+        "model": "Rocket 5AC Lite",
+        "ssid": "exsac",
+        "tipo": "Access Point",
+        "pop": "SANTA TEREZINHA",
+        "ip": "10.200.200.125",
+        "port": "65444"
+    },
+    {
+        "name": "ExS",
+        "group": "UBIQUITI",
+        "model": "Rocket 5AC Lite",
+        "ssid": "exsac",
+        "tipo": "Station",
+        "pop": "pop CENTRAL - DATACENTER",
+        "ip": "10.200.200.126",
+        "port": "65444"
+    },
+    {
+        "name": "FernandoSeg x J.Schneider",
+        "group": "UBIQUITI",
+        "model": "LiteBeam M5",
+        "ssid": "EL_CRISTOREI58",
+        "tipo": "Station",
+        "pop": "FERNANDO SEGUROS (TUPANDI)",
+        "ip": "10.200.200.127",
+        "port": "65444"
+    },
+    {
+        "name": "MG x MTG",
+        "group": "UBIQUITI",
+        "model": "AirGrid M5 HP",
+        "ssid": "mgxmt",
+        "tipo": "Access Point",
+        "pop": "MORRO DO GAUCHO",
+        "ip": "10.200.200.129",
+        "port": "65444"
+    },
+    {
+        "name": "ARPxBV",
+        "group": "UBIQUITI",
+        "model": "PowerBeam M5 400",
+        "ssid": "arpxbv",
+        "tipo": "Access Point",
+        "pop": "ARROIO DAS PEDRAS",
+        "ip": "10.200.200.130",
+        "port": "65444"
+    },
+    {
+        "name": "BxSV",
+        "group": "UBIQUITI",
+        "model": "PowerBeam 5AC 500",
+        "ssid": "int_sv",
+        "tipo": "Access Point",
+        "pop": "BOM FIM",
+        "ip": "10.200.200.131",
+        "port": "65444"
+    },
+    {
+        "name": "SVxB",
+        "group": "UBIQUITI",
+        "model": "PowerBeam 5AC 500",
+        "ssid": "int_sv",
+        "tipo": "Station",
+        "pop": "SAO VIDELINO",
+        "ip": "10.200.200.132",
+        "port": "65444"
+    },
+    {
+        "name": "exa",
+        "group": "UBIQUITI",
+        "model": "PowerBeam 5AC 500",
+        "ssid": "exa",
+        "tipo": "Access Point",
+        "ip": "10.200.200.133",
+        "port": "65444"
+    },
+    {
+        "name": "axe",
+        "group": "UBIQUITI",
+        "model": "PowerBeam 5AC 500",
+        "ssid": "exa",
+        "tipo": "Station",
+        "pop": "BOM FIM",
+        "ip": "10.200.200.134",
+        "port": "65444"
+    },
+    {
+        "name": "ARP x PSAL",
+        "group": "UBIQUITI",
+        "model": "PowerBeam M5 400",
+        "ssid": "axp",
+        "tipo": "Access Point",
+        "pop": "ARROIO DAS PEDRAS",
+        "ip": "10.200.200.135",
+        "port": "65444"
+    },
+    {
+        "name": "PTP-PAI-RENAN",
+        "group": "UBIQUITI",
+        "model": "PowerBeam M5 400",
+        "ssid": "sxcom",
+        "tipo": "Station",
+        "ip": "10.200.200.138",
+        "port": "65444"
+    },
+    {
+        "name": "ARP x M.GA",
+        "group": "UBIQUITI",
+        "model": "PowerBeam M5 401",
+        "ssid": "comunidade",
+        "tipo": "Station",
+        "pop": "MORRO DO GAUCHO",
+        "ip": "10.200.200.140",
+        "port": "65444"
+    },
+    {
+        "name": "arp x vivi",
+        "group": "UBIQUITI",
+        "model": "PowerBeam M5 400",
+        "ssid": "arp_x_vivi",
+        "tipo": "Access Point",
+        "pop": "ARROIO DAS PEDRAS",
+        "ip": "10.200.200.142",
+        "port": "65444"
+    },
+    {
+        "name": "Vivi x ARP",
+        "group": "UBIQUITI",
+        "model": "PowerBeam M5 400",
+        "ssid": "arp_x_vivi",
+        "tipo": "Station",
+        "ip": "10.200.200.143",
+        "port": "65444"
+    },
+    {
+        "name": "VFlores x Carmen",
+        "group": "UBIQUITI",
+        "model": "AirGrid M5 HP",
+        "ssid": "PTP-CARMEN",
+        "tipo": "Access Point",
+        "pop": "VALE DAS FLORES",
+        "ip": "10.200.200.144",
+        "port": "65444"
+    },
+    {
+        "name": "ELETRIC x PrefeituraBP",
+        "group": "UBIQUITI",
+        "model": "LiteBeam 5AC 23",
+        "ssid": "PTP-PREF-BP",
+        "tipo": "Access Point",
+        "pop": "pop CENTRAL - DATACENTER",
+        "ip": "10.200.200.150",
+        "port": "65444"
+    },
+    {
+        "name": "bf x Vflores",
+        "group": "UBIQUITI",
+        "model": "AirGrid M5 HP",
+        "ssid": "int_vfl",
+        "tipo": "Access Point",
+        "pop": "BOM FIM",
+        "ip": "10.200.200.198",
+        "port": "65444"
+    },
+    {
+        "name": "VfloresXBomFim",
+        "group": "UBIQUITI",
+        "model": "AirGrid M5 HP",
+        "ssid": "int_vfl",
+        "tipo": "Station",
+        "pop": "VALE DAS FLORES",
+        "ip": "10.200.200.199",
+        "port": "65444"
+    },
+    {
+        "name": "EL_CENTRO58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL_CENTRO58",
+        "tipo": "Access Point",
+        "pop": "BOM FIM",
+        "ip": "10.200.200.200",
+        "port": "65444"
+    },
+    {
+        "name": "EL_STL24",
+        "group": "UBIQUITI",
+        "model": "NanoStation 2",
+        "ssid": "EL_STL24",
+        "tipo": "Access Point",
+        "pop": "SANTA LUCIA",
+        "ip": "10.200.200.202",
+        "port": "65444"
+    },
+    {
+        "name": "EL_STL58",
+        "group": "UBIQUITI",
+        "model": "PicoStation5",
+        "ssid": "EL_STL58",
+        "tipo": "Access Point",
+        "pop": "BOM FIM",
+        "ip": "10.200.200.207",
+        "port": "65444"
+    },
+    {
+        "name": "EL_FELIZ58",
+        "group": "UBIQUITI",
+        "model": "Rocket M5",
+        "ssid": "EL_FELIZ58",
+        "tipo": "Access Point",
+        "pop": "ARROIO DAS PEDRAS",
+        "ip": "10.200.200.209",
+        "port": "65444"
+    },
+    {
+        "name": "EL_PVALE58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL_PVALE58",
+        "tipo": "Access Point",
+        "ip": "10.200.200.210",
+        "port": "65444"
+    },
+    {
+        "name": "EL2_ARP58",
+        "group": "UBIQUITI",
+        "model": "Rocket M5",
+        "ssid": "EL2_ARP58",
+        "tipo": "Access Point",
+        "pop": "ARROIO DAS PEDRAS",
+        "ip": "10.200.200.212",
+        "port": "65444"
+    },
+    {
+        "name": "EL_VFLORES24",
+        "group": "UBIQUITI",
+        "model": "NanoStation2",
+        "ssid": "EL_VFLORES24",
+        "tipo": "Access Point",
+        "pop": "VALE DAS FLORES",
+        "ip": "10.200.200.213",
+        "port": "65444"
+    },
+    {
+        "name": "EL3_STEREZ_58",
+        "group": "UBIQUITI",
+        "model": "LiteBeam 5AC 16 120",
+        "ssid": "EL3_STEREZ_58",
+        "tipo": "Access Point",
+        "pop": "BOM FIM",
+        "ip": "10.200.200.214",
+        "port": "65444"
+    },
+    {
+        "name": "EL_VFLORES24_2",
+        "group": "UBIQUITI",
+        "model": "Bullet2",
+        "ssid": "EL_VFLORES24_2",
+        "tipo": "Access Point",
+        "pop": "VALE DAS FLORES",
+        "ip": "10.200.200.216",
+        "port": "65444"
+    },
+    {
+        "name": "EL2_STEREZ_58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL2_STEREZ_58",
+        "tipo": "Access Point",
+        "pop": "BOM FIM",
+        "ip": "10.200.200.218",
+        "port": "65444"
+    },
+    {
+        "name": "EL2_PVALE58",
+        "group": "UBIQUITI",
+        "model": "LiteBeam 5AC 23",
+        "ssid": "EL2_PVALE58",
+        "tipo": "Access Point",
+        "ip": "10.200.200.219",
+        "port": "65444"
+    },
+    {
+        "name": "EL_VFLORES58",
+        "group": "UBIQUITI",
+        "model": "AirGrid M5 HP",
+        "ssid": "EL_VFLORES58",
+        "tipo": "Access Point",
+        "pop": "VALE DAS FLORES",
+        "ip": "10.200.200.222",
+        "port": "65444"
+    },
+    {
+        "name": "EL2_MTT_58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL2_MTT_58",
+        "tipo": "Access Point",
+        "ip": "10.200.200.224",
+        "port": "65444"
+    },
+    {
+        "name": "EL3_MTT_58",
+        "group": "UBIQUITI",
+        "model": "Rocket M5",
+        "ssid": "EL3_MTT_58",
+        "tipo": "Access Point",
+        "ip": "10.200.200.226",
+        "port": "65444"
+    },
+    {
+        "name": "EL3_ARP_58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL3_ARP_58",
+        "tipo": "Access Point",
+        "pop": "ARROIO DAS PEDRAS",
+        "ip": "10.200.200.227",
+        "port": "65444"
+    },
+    {
+        "name": "EL_MTT_58",
+        "group": "UBIQUITI",
+        "model": "Rocket M5",
+        "ssid": "EL_MTT_58",
+        "tipo": "Access Point",
+        "ip": "10.200.200.228",
+        "port": "65444"
+    },
+    {
+        "name": "EL_BFM_58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL_BFM_58",
+        "tipo": "Access Point",
+        "pop": "BOM FIM",
+        "ip": "10.200.200.229",
+        "port": "65444"
+    },
+    {
+        "name": "EL_TAMAND_58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL_TAMAND_58",
+        "tipo": "Access Point",
+        "ip": "10.200.200.230",
+        "port": "65444"
+    },
+    {
+        "name": "EL_CENTRO_58",
+        "group": "UBIQUITI",
+        "model": "Rocket M5",
+        "ssid": "EL_CENTRO_58",
+        "tipo": "Access Point",
+        "pop": "BOM FIM",
+        "ip": "10.200.200.232",
+        "port": "65444"
+    },
+    {
+        "name": "EL2_FELIZ58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL2_FELIZ58",
+        "tipo": "Access Point",
+        "pop": "ARROIO DAS PEDRAS",
+        "ip": "10.200.200.233",
+        "port": "65444"
+    },
+    {
+        "name": "EL_RONCADOR_58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL_RONCADOR_58",
+        "tipo": "Access Point",
+        "pop": "BOM FIM",
+        "ip": "10.200.200.236",
+        "port": "65444"
+    },
+    {
+        "name": "EL_BFPI58",
+        "group": "UBIQUITI",
+        "model": "NanoStation loco M5",
+        "ssid": "EL_BFPI58",
+        "tipo": "Access Point",
+        "ip": "10.200.200.238",
+        "port": "65444"
+    },
+    {
+        "name": "PTP-CMT",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "sxcom",
+        "tipo": "Access Point",
+        "ip": "10.200.200.239",
+        "port": "65444"
+    },
+    {
+        "name": "EL_GAUGER_58",
+        "group": "UBIQUITI",
+        "model": "PowerBeam M5 400",
+        "ssid": "EL_GAUGER_58",
+        "tipo": "Access Point",
+        "ip": "10.200.200.240",
+        "port": "65444"
+    },
+    {
+        "name": "EL_STZ_58",
+        "group": "UBIQUITI",
+        "model": "Rocket Prism 5AC Gen2",
+        "ssid": "EL_STZ_58",
+        "tipo": "Access Point",
+        "ip": "10.200.200.241",
+        "port": "65444"
+    },
+    {
+        "name": "EL4_MTT_58",
+        "group": "UBIQUITI",
+        "model": "PrismStation 5AC",
+        "ssid": "EL4_MTT_58",
+        "tipo": "Access Point",
+        "ip": "10.200.200.242",
+        "port": "65444"
+    },
+    {
+        "name": "EL2_COLUMBIA58",
+        "group": "UBIQUITI",
+        "model": "LiteBeam 5AC 16 120",
+        "ssid": "EL2_COLUMBIA58",
+        "tipo": "Access Point",
+        "ip": "10.200.200.243",
+        "port": "65444"
+    },
+    {
+        "name": "EL_BINDSV58",
+        "group": "UBIQUITI",
+        "model": "LiteBeam 5AC 16 120",
+        "ssid": "EL_BINDSV58",
+        "tipo": "Access Point",
+        "pop": "SAO VIDELINO",
+        "ip": "10.200.200.244",
+        "port": "65444"
+    },
+    {
+        "name": "EL_JDACA58",
+        "group": "UBIQUITI",
+        "model": "Rocket 5AC Prism",
+        "ssid": "EL_JDACA58",
+        "tipo": "Access Point",
+        "pop": "pop CENTRAL - DATACENTER",
+        "ip": "10.200.200.245",
+        "port": "65444"
+    },
+    {
+        "name": "EL2_VFLORES58",
+        "group": "UBIQUITI",
+        "model": "NanoBeam 5AC 16",
+        "ssid": "EL2_VFLORES58",
+        "tipo": "Access Point",
+        "pop": "VALE DAS FLORES",
+        "ip": "10.200.200.248",
+        "port": "65444"
+    },
+    {
+        "name": "EL_JDVALE58",
+        "group": "UBIQUITI",
+        "model": "LiteBeam 5AC 16 120",
+        "ssid": "EL_JDVALE58",
+        "tipo": "Access Point",
+        "pop": "pop CENTRAL - DATACENTER",
+        "ip": "10.200.200.249",
+        "port": "65444"
+    },
+    {
+        "name": "EL_VSCH58",
+        "group": "UBIQUITI",
+        "model": "LiteBeam 5AC 16 120",
+        "ssid": "EL_VSCH58",
+        "tipo": "Access Point",
+        "pop": "pop CENTRAL - DATACENTER",
+        "ip": "10.200.200.250",
+        "port": "65444"
+    },
+    {
+        "name": "EL_SVSUL",
+        "group": "UBIQUITI",
+        "model": "LiteBeam 5AC 23",
+        "ssid": "EL_SVSUL",
+        "tipo": "Access Point",
+        "pop": "SAO VIDELINO",
+        "ip": "10.200.200.251",
+        "port": "65444"
+    },
+    {
+        "name": "EL_MTTBF_58",
+        "group": "UBIQUITI",
+        "model": "Rocket Prism 5AC Gen2",
+        "ssid": "EL_MTTBF_58",
+        "tipo": "Access Point",
+        "ip": "10.200.200.252",
+        "port": "65444"
+    },
+    {
+        "name": "Quiosque do Simon",
+        "group": "UBIQUITI",
+        "model": "LiteBeam M5",
+        "ssid": "EL_MGAUCHO58",
+        "tipo": "Station",
+        "ip": "10.200.200.253",
+        "port": "65444"
+    },
+    {
+        "name": "EL_CRISTOREI58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL_CRISTOREI58",
+        "tipo": "Access Point",
+        "pop": "JAIME SHCNEIDER",
+        "ip": "10.200.200.254",
+        "port": "65444"
+    },
+    {
+        "name": "EL_MGAUCHO58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL_MGAUCHO58",
+        "tipo": "Access Point",
+        "pop": "MORRO DO GAUCHO",
+        "ip": "172.16.53.11",
+        "port": "65444"
+    },
+    {
+        "name": "EL_MANTEIGA58",
+        "group": "UBIQUITI",
+        "model": "PowerBeam M5 400",
+        "ssid": "EL_MANTEIGA58",
+        "tipo": "Access Point",
+        "pop": "MORRO DA MANTEIGA",
+        "ip": "172.16.50.10",
+        "port": "65444"
+    },
+    {
+        "name": "EL2_CRISTOREI58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL2_CRISTOREI58",
+        "tipo": "Access Point",
+        "pop": "FERNANDO SEGUROS (TUPANDI)",
+        "ip": "172.16.52.10",
+        "port": "65444"
+    },
+    {
+        "name": "EL_TUPAND58",
+        "group": "UBIQUITI",
+        "model": "Rocket M5",
+        "ssid": "EL_TUPAND58",
+        "tipo": "Access Point",
+        "ip": "172.16.53.10",
+        "port": "65444"
+    },
+    {
+        "name": "EL_MGAUCHO58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL_MGAUCHO58",
+        "tipo": "Access Point",
+        "ip": "172.16.53.11",
+        "port": "65444"
+    },
+    {
+        "name": "EL_TPCENT58",
+        "group": "UBIQUITI",
+        "model": "AirGrid M5 HP",
+        "ssid": "EL_TPCENT58",
+        "tipo": "Access Point",
+        "pop": "MORRO DO GAUCHO",
+        "ip": "172.16.53.12",
+        "port": "65444"
+    },
+    {
+        "name": "EL_BV58",
+        "group": "UBIQUITI",
+        "model": "NanoStation Loco M5",
+        "ssid": "EL_BV58",
+        "tipo": "Access Point",
+        "pop": "BELA VISTA",
+        "ip": "172.16.56.10",
+        "port": "65444"
+    },
+    {
+        "name": "EL2_BV58",
+        "group": "UBIQUITI",
+        "model": "AirGrid M5 HP",
+        "ssid": "EL2_BV58",
+        "tipo": "Access Point",
+        "pop": "BELA VISTA",
+        "ip": "172.16.56.11",
+        "port": "65444"
+    },
+    {
+        "name": "EL3_BV58",
+        "group": "UBIQUITI",
+        "model": "NanoBeam M5 16",
+        "ssid": "EL3_BV58",
+        "tipo": "Access Point",
+        "pop": "BELA VISTA",
+        "ip": "172.16.56.13",
+        "port": "65444"
+    },
+    {
+        "name": "EL_PASSOSAL58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL_PASSOSAL58",
+        "tipo": "Access Point",
+        "pop": "PASSO SALSEIRO",
+        "ip": "172.16.57.10",
+        "port": "65444"
+    },
+    {
+        "name": "EL2_PASSOSAL58",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL2_PASSOSAL58",
+        "tipo": "Access Point",
+        "pop": "PASSO SALSEIRO",
+        "ip": "172.16.57.11",
+        "port": "65444"
+    },
+    {
+        "name": "EL_PASSOSAL24",
+        "group": "UBIQUITI",
+        "model": "NanoStation M5",
+        "ssid": "EL_PASSOSAL24",
+        "tipo": "Access Point",
+        "pop": "PASSO SALSEIRO",
+        "ip": "172.16.57.12",
+        "port": "65444"
+    }
+]
