@@ -1,38 +1,42 @@
-import { hostBasic } from "../types/xml"
+import { hostBasic, hostsType } from "../types/xml"
 
-const Host = async ({ name, group, model, ssid, tipo, pop, ip, port, port_snmp = "161", templates = "radio" }: hostBasic) => {
-    const obj = await
-        {
-            "host": `${name} - ${pop} - ${tipo}`,
-            "name": name,
-            "templates": [
-                templates,
-            ],
-            "groups": [
-                group,
-            ],
-            "interfaces": [
-                {
-                    "ip": ip,
-                    "interface_ref": "if1"
-                },
-                {
-                    "type": "SNMP",
-                    "ip": ip,
-                    "port": port_snmp,
-                    "details": {
-                        "community": "{$SNMP_COMMUNITY}"
-                    },
-                    "interface_ref": "if2"
-                }
-            ],
-            inventory: {
-                "location": pop,
-                "notes": 'POP:' + pop + '- NOME:' + name + '-' + ip + '-' + port + '- MODELO: ' + model + 'SSID:' + ssid,
+function Host({ name, model, ssid, tipo, pop, ip, port, port_snmp = "161", templates = "UBNT / Intelbras" }: hostBasic) {
+    const obj = {
+        "host": `${name} - ${pop} - ${tipo}`,
+        "name": name,
+        "templates": [
+            {
+                "name": templates
             }
+
+        ],
+        "groups": [
+            {
+                "name": templates
+            }
+        ],
+        "interfaces": [
+            {
+                "ip": ip,
+                "interface_ref": "if1"
+            },
+            {
+                "type": "SNMP",
+                "ip": ip,
+                "port": port_snmp,
+                "details": {
+                    "community": "{$SNMP_COMMUNITY}"
+                },
+                "interface_ref": "if2"
+            }
+        ],
+        inventory: {
+            "location": pop,
+            "notes": 'POP:' + pop + '- NOME:' + name + '-' + ip + '-' + port + '- MODELO: ' + model + 'SSID:' + ssid,
         }
+    }
 
-
+    console.log(obj)
     return obj
 }
 
