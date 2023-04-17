@@ -8,7 +8,7 @@ const TemplateZabbix = (hosts: hostsType) => {
 
                 {
                     "uuid": "e66f21ee0cae484d8a56ef49e091058a",
-                    "name": "UBNT / Intelbras"
+                    "name": "Backup - Ubnt"
                 }
             ],
             "hosts": hosts

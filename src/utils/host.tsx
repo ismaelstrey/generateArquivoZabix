@@ -1,6 +1,6 @@
-import { hostBasic, hostsType } from "../types/xml"
+import { hostBasic } from "../types/xml"
 
-function Host({ name, model, ssid, tipo, pop, ip, port, port_snmp = "161", templates = "UBNT / Intelbras" }: hostBasic) {
+function Host({ name, model, ssid, tipo, pop, ip, port, port_snmp = "161", templates = "Backup - Ubnt" }: hostBasic) {
     const obj = {
         "host": `${name} - ${pop} - ${tipo}`,
         "name": name,

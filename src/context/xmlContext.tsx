@@ -10,13 +10,15 @@ const HostProvider: FC<any> = ({ children }): ReactElement => {
         let lista: [] = []
         obj.map((data: hostBasic) => {
             const { name, model, ssid, tipo, pop, ip, port } = data;
-
             const dataList = Host({ name, model, ssid, ip, port, pop, tipo })
+            //@ts-ignore
             lista.push(dataList)
         })
+        //@ts-ignore
         setHost(TemplateZabbix(lista))
     }
     return (
+        //@ts-ignore
         <HostContext.Provider value={{ host, getHost }}>
             {children}
         </HostContext.Provider>
