@@ -9,8 +9,9 @@ const HostProvider: FC<any> = ({ children }): ReactElement => {
     const getHost = (obj: hostBasic[]) => {
         let lista: [] = []
         obj.map((data: hostBasic) => {
-            const { name, model, ssid, tipo, pop, ip, port } = data;
-            const dataList = Host({ name, model, ssid, ip, port, pop, tipo })
+            const { device_name, model, ssid, tipo, pop, ip, port } = data;
+
+            const dataList = Host({ device_name, model, ssid, ip, port, pop, tipo })
             //@ts-ignore
             lista.push(dataList)
         })

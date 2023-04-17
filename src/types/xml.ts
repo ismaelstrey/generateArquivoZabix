@@ -86,7 +86,7 @@ export type xmlContext = {
 
 
 export type hostBasic = {
-    name: string;
+    device_name: string;
     model: string;
     ssid: string;
     tipo: string;
@@ -97,6 +97,7 @@ export type hostBasic = {
     version?: string;
     host_groups?: string;
     templates?: string;
+
 }
 export type templateBasic = {
     port_snmp: string; version: string; host_groups: string; templates: string;

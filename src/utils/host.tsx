@@ -1,9 +1,9 @@
 import { hostBasic } from "../types/xml"
 
-function Host({ name, model, ssid, tipo, pop, ip, port, port_snmp = "161", templates = "Backup - Ubnt" }: hostBasic) {
+function Host({ device_name, model, ssid, tipo, pop, ip, port, port_snmp = "161", templates = "Backup - Ubnt" }: hostBasic) {
     const obj = {
-        "host": `${name} - ${pop} - ${tipo}`,
-        "name": name,
+        "host": `${device_name} - ${pop} - ${tipo}`,
+        "name": device_name,
         "templates": [
             {
                 "name": templates
@@ -32,7 +32,7 @@ function Host({ name, model, ssid, tipo, pop, ip, port, port_snmp = "161", templ
         ],
         inventory: {
             "location": pop,
-            "notes": 'POP:' + pop + '- NOME:' + name + '-' + ip + '-' + port + '- MODELO: ' + model + 'SSID:' + ssid,
+            "notes": 'POP:' + pop + '- NOME:' + device_name + '-' + ip + '-' + port + '- MODELO: ' + model + 'SSID:' + ssid,
         }
     }
 
