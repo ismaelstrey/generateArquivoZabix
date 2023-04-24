@@ -25,7 +25,8 @@ function Host({ device_name, model, ssid, tipo, pop, ip, port, port_snmp = "161"
                 "ip": ip,
                 "port": port_snmp,
                 "details": {
-                    "community": "{$SNMP_COMMUNITY}"
+                    "version": "SNMPV1",
+                    "community": "{$SNMP_COMMUNITY_ANTENA}"
                 },
                 "interface_ref": "if2"
             }
